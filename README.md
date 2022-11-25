@@ -7,6 +7,10 @@ including FedShare, SCOTCH, and FedAvg. The default is 'mnist' dataset. But if y
 
 For a quick start you can use:
 ```
+git clone https://github.com/v4va/FedShare.git
+```
+
+```
 chmod +x start-fedshare.sh
 chmod +x start-fedavg.sh
 chmod +x start-scotch.sh
