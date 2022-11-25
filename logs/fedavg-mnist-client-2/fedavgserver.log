@@ -1,0 +1,15 @@
+ * Serving Flask app "fedavgserver" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.3:3500/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 282-730-367
+127.0.1.1 - - [24/Nov/2022 23:23:07] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342887
+127.0.1.2 - - [24/Nov/2022 23:23:07] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342887

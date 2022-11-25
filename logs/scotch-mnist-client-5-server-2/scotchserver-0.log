@@ -1,0 +1,126 @@
+ * Serving Flask app "scotchserver" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.3:8500/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 259-722-629
+127.0.1.3 - - [24/Nov/2022 23:25:53] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.3 received. len(data): 2342836
+127.0.1.2 - - [24/Nov/2022 23:25:53] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.2 received. len(data): 2342836
+127.0.1.4 - - [24/Nov/2022 23:25:53] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.4 received. len(data): 2342836
+127.0.1.5 - - [24/Nov/2022 23:25:53] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.5 received. len(data): 2342836
+127.0.1.1 - - [24/Nov/2022 23:25:53] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.1 received. len(data): 2342836
+{'response': 'ok'}
+{'response': 'ok'}
+[THREAD] Waiting for thread Thread-21
+{'response': 'ok'}
+[CLIENT] model sent to client 0{'response': 'ok'}{'response': 'ok'}
+
+
+[THREAD] Waiting for thread Thread-22
+{'response': 'ok'}{'response': 'ok'}
+
+[CLIENT] model sent to client 1
+[THREAD] Waiting for thread Thread-23
+{'response': 'ok'}{'response': 'ok'}
+
+[CLIENT] model sent to client 3[CLIENT] model sent to client 2
+
+[THREAD] Waiting for thread Thread-24
+[THREAD] Waiting for thread Thread-25
+{'response': 'ok'}
+[CLIENT] model sent to client 4
+[DOWNLOAD] Total download cost so far: 11714180
+[UPLOAD] Total upload cost so far: 11714180
+********************** [ROUND] Round completed **********************
+{'response': 'ok'}
+127.0.1.3 - - [24/Nov/2022 23:26:15] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.3 received. len(data): 2342836
+127.0.1.2 - - [24/Nov/2022 23:26:15] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.2 received. len(data): 2342836
+127.0.1.4 - - [24/Nov/2022 23:26:16] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.4 received. len(data): 2342836
+127.0.1.5 - - [24/Nov/2022 23:26:16] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.5 received. len(data): 2342836
+127.0.1.1 - - [24/Nov/2022 23:26:16] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.1 received. len(data): 2342836
+[THREAD] Waiting for thread Thread-36
+{'response': 'ok'}
+{'response': 'ok'}{'response': 'ok'}{'response': 'ok'}
+
+
+{'response': 'ok'}{'response': 'ok'}
+[CLIENT] model sent to client 1
+
+{'response': 'ok'}
+[CLIENT] model sent to client 3
+{'response': 'ok'}{'response': 'ok'}
+
+[CLIENT] model sent to client 0[CLIENT] model sent to client 2
+[THREAD] Waiting for thread Thread-37
+
+[THREAD] Waiting for thread Thread-38
+[THREAD] Waiting for thread Thread-39
+[THREAD] Waiting for thread Thread-40
+{'response': 'ok'}
+[CLIENT] model sent to client 4
+[DOWNLOAD] Total download cost so far: 23428360
+[UPLOAD] Total upload cost so far: 23428360
+********************** [ROUND] Round completed **********************
+{'response': 'ok'}
+127.0.1.5 - - [24/Nov/2022 23:26:39] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.5 received. len(data): 2342836
+127.0.1.1 - - [24/Nov/2022 23:26:39] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.1 received. len(data): 2342836
+127.0.1.2 - - [24/Nov/2022 23:26:39] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.2 received. len(data): 2342836
+127.0.1.3 - - [24/Nov/2022 23:26:39] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.3 received. len(data): 2342836
+127.0.1.4 - - [24/Nov/2022 23:26:40] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[SECRET] Secret of 127.0.1.4 received. len(data): 2342836
+[THREAD] Waiting for thread Thread-51
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}{'response': 'ok'}{'response': 'ok'}
+
+
+{'response': 'ok'}
+[CLIENT] model sent to client 0
+[THREAD] Waiting for thread Thread-52
+{'response': 'ok'}
+[CLIENT] model sent to client 2
+{'response': 'ok'}
+[CLIENT] model sent to client 4
+{'response': 'ok'}
+[CLIENT] model sent to client 1
+[THREAD] Waiting for thread Thread-53
+[THREAD] Waiting for thread Thread-54
+{'response': 'ok'}
+[CLIENT] model sent to client 3
+[THREAD] Waiting for thread Thread-55
+[DOWNLOAD] Total download cost so far: 35142540
+[UPLOAD] Total upload cost so far: 35142540
+********************** [ROUND] Round completed **********************
+{'response': 'ok'}

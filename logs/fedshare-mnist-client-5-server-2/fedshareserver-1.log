@@ -1,0 +1,93 @@
+ * Serving Flask app "fedshareserver" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.3:8501/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 313-582-530
+127.0.1.1 - - [24/Nov/2022 23:24:35] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.3 - - [24/Nov/2022 23:24:35] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.2 - - [24/Nov/2022 23:24:35] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.5 - - [24/Nov/2022 23:24:35] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.5 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.4 - - [24/Nov/2022 23:24:35] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.4 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+[UPLOAD] Sent aggregated weights to the master, size: 2342836
+[DOWNLOAD] Total download cost so far: 11714180
+[UPLOAD] Total upload cost so far: 2342836
+********************** [ROUND] Round 1 completed **********************
+{'response': 'ok'}
+127.0.1.4 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.4 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.2 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.3 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
+[SECRET] Secret opened successfully.127.0.1.1 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.5 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.5 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+[UPLOAD] Sent aggregated weights to the master, size: 2342836
+[DOWNLOAD] Total download cost so far: 23428360
+[UPLOAD] Total upload cost so far: 4685672
+********************** [ROUND] Round 2 completed **********************
+{'response': 'ok'}
+127.0.1.2 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.1 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.3 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.4 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.4 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.5 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.5 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+[UPLOAD] Sent aggregated weights to the master, size: 2342836
+[DOWNLOAD] Total download cost so far: 35142540
+[UPLOAD] Total upload cost so far: 7028508
+********************** [ROUND] Round 3 completed **********************
+{'response': 'ok'}

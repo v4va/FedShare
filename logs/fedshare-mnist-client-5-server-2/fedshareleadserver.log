@@ -1,0 +1,108 @@
+ * Serving Flask app "fedshareleadserver" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.4:7501/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 109-107-867
+127.0.0.3 - - [24/Nov/2022 23:24:36] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}127.0.0.3 - - [24/Nov/2022 23:24:36] "[37mPOST /recv HTTP/1.1[0m" 200 -
+
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}[THREAD] Waiting for thread Thread-15
+{'response': 'ok'}
+
+{'response': 'ok'}
+{'response': 'ok'}
+[CLIENT] model sent to client 1{'response': 'ok'}{'response': 'ok'}
+
+
+[CLIENT] model sent to client 0[CLIENT] model sent to client 2
+{'response': 'ok'}
+
+[CLIENT] model sent to client 3[THREAD] Waiting for thread Thread-16
+
+[THREAD] Waiting for thread Thread-17
+[THREAD] Waiting for thread Thread-18
+[THREAD] Waiting for thread Thread-19
+{'response': 'ok'}
+[CLIENT] model sent to client 4
+[DOWNLOAD] Total download cost so far: 4685672
+[UPLOAD] Total upload cost so far: 11714120
+[AGGREGATION] Model aggregation completed successfully.
+{'response': 'ok'}
+127.0.0.3 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.0.3 - - [24/Nov/2022 23:24:41] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}{'response': 'ok'}{'response': 'ok'}
+
+
+[THREAD] Waiting for thread Thread-24
+{'response': 'ok'}
+[CLIENT] model sent to client 0
+[THREAD] Waiting for thread Thread-25
+{'response': 'ok'}
+{'response': 'ok'}{'response': 'ok'}
+[CLIENT] model sent to client 2
+
+[CLIENT] model sent to client 3
+{'response': 'ok'}{'response': 'ok'}
+[CLIENT] model sent to client 4
+[CLIENT] model sent to client 1
+
+[THREAD] Waiting for thread Thread-26
+[THREAD] Waiting for thread Thread-27
+[THREAD] Waiting for thread Thread-28
+[DOWNLOAD] Total download cost so far: 9371344
+[UPLOAD] Total upload cost so far: 23428240
+[AGGREGATION] Model aggregation completed successfully.
+{'response': 'ok'}
+127.0.0.3 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+127.0.0.3 - - [24/Nov/2022 23:24:46] "[37mPOST /recv HTTP/1.1[0m" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.0.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+[THREAD] Waiting for thread Thread-33
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+[CLIENT] model sent to client 3
+{'response': 'ok'}
+[CLIENT] model sent to client 2
+{'response': 'ok'}
+{'response': 'ok'}
+[CLIENT] model sent to client 4[CLIENT] model sent to client 1
+{'response': 'ok'}
+
+[CLIENT] model sent to client 0
+[THREAD] Waiting for thread Thread-34
+[THREAD] Waiting for thread Thread-35
+[THREAD] Waiting for thread Thread-36
+[THREAD] Waiting for thread Thread-37
+[DOWNLOAD] Total download cost so far: 14057016
+[UPLOAD] Total upload cost so far: 35142360
+[AGGREGATION] Model aggregation completed successfully.
+{'response': 'ok'}
