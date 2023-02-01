@@ -15,8 +15,6 @@ config = LeadConfig()
 
 run_start_time = time.time()
 
-field_size = np.finfo('float32').max
-
 total_upload_cost = 0
 total_download_cost = 0
 
@@ -54,7 +52,7 @@ def recv_thread(servers_secret, data, remote_addr):
         layer_list = []
         for server_index in range(config.num_servers):
             layer_list.append(servers_secret[server_index][layer_index])
-        fedshare_weights[layer_index] = np.fmod(np.array(layer_list).sum(axis=0, dtype=np.float64), field_size)
+        fedshare_weights[layer_index] = np.array(layer_list).sum(axis=0, dtype=np.float64)
 
     servers_secret.clear()
 

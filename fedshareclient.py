@@ -16,7 +16,7 @@ config = ClientConfig(int(sys.argv[1]))
 
 client_datasets = mnistcommon.load_train_dataset(config.number_of_clients, permute=True)
 
-field_size = np.finfo('float32').max
+
 highest_range = np.finfo('float16').max
 
 api = Flask(__name__)
@@ -76,14 +76,13 @@ def start_next_round(data):
         shares_dict[layer_index] = np.zeros(shape=(config.num_servers,) + layer_shape[layer_index], dtype=np.float64)
 
         for server_index in range(config.num_servers - 1):
-            shares_dict[layer_index][server_index] = np.random.uniform(low=0, high=highest_range,
+            shares_dict[layer_index][server_index] = np.random.uniform(low=-highest_range, high=highest_range,
                                                                        size=layer_shape[layer_index]).astype(np.float64)
 
         share_sum_except_last = np.array(shares_dict[layer_index][:config.num_servers - 1]).sum(axis=0,
                                                                                                 dtype=np.float64)
         x = np.copy(np.array(layer_dict[layer_index], dtype=np.float64))
-        diff = np.subtract(x, share_sum_except_last, dtype=np.float64)
-        last_share = np.fmod(diff, field_size, dtype=np.float64)
+        last_share = np.subtract(x, share_sum_except_last, dtype=np.float64)
         shares_dict[layer_index][config.num_servers - 1] = last_share
 
     for server_index in range(config.num_servers):
